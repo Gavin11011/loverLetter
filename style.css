@@ -217,3 +217,15 @@ figure.line.photo { margin-bottom: 1.8rem; }
   .envelope, .hint { animation: none; }
   .env-letter, .env-flap { transition-duration: .01s; transition-delay: 0s; }
 }
+
+/* 照片底部手写标注 */
+.photo .cap {
+  position: absolute;
+  left: 0; right: 0; bottom: 4px;
+  text-align: center;
+  font-family: var(--hand);
+  font-size: 0.85rem;
+  letter-spacing: 0.2em;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
